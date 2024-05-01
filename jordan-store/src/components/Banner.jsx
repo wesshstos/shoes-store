@@ -4,7 +4,7 @@ export default function Banner({ tittle, subtittle }) {
     <>
       <div className="relative bg-home bg-zinc-800 w-full h-[320px] bg-cover bg-center flex justify-center items-center flex-col mb-10">
         <div className="bg-zinc-800/55 flex justify-center items-center flex-col px-4 py-2 h-full w-full rounded">
-          <h1 className="text-4xl uppercase font-bold text-zinc-100 my-2 ">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl uppercase font-bold text-zinc-100 my-2 ">
             {tittle}
           </h1>
           <p className="text-zinc-100 italic capitalize font-light ">
